@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+
+  @apply ml-1 mr-1
+}
+
+
+  .inactive{
+    @apply text-red-600
+  }
+  .active{
+    @apply text-green-400
+  }
