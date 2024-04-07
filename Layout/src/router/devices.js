@@ -10,5 +10,5 @@ devices.delete('/:id',DeleteDevices)
 devices.post('/image',upload.single('images')  ,imageuplabe  );
 devices.patch('/:id',displaySingleDevices)
 devices.get('/onedevice/:id',findDevicesbyid)
-devices.patch('/update/:id',uptade)
+devices.put('/update/:id',uptade)
 export default devices

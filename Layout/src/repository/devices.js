@@ -80,10 +80,10 @@ export const uploadImageToStorage = async (buffer, fileNameWithSuffix) => {
         logger.warn('No deivce found with filters:', filters);
         return null;
       }
-      logger.info('deivce updated:', deivce);
-      return order;
+      
+      return deivce;
     } catch (e) {
-      logger.error('error update device', e.message);
+      console.log(e.message)
       throw e;
     }
   };
