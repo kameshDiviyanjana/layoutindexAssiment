@@ -31,7 +31,7 @@ function DeviceUpdate() {
 
     useEffect(() => {
         // Update state when onedevice changes
-        if (onedevice.length > 0) {
+        if (onedevice?.length > 0) {
             setAddress(onedevice[0].Address);
             setDevicesname(onedevice[0].devicesname);
             setSerialnumber(onedevice[0].serialnumber);
