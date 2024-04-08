@@ -59,6 +59,7 @@ function DeviceUpdate() {
                 console.error('Error updating device:', error);
             });
     }
+    
 
     return (
         <div className='w-full h-full'>

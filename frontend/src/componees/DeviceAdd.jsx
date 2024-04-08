@@ -90,7 +90,7 @@ function DeviceAdd() {
         
         <label id="Adresss">Devices Name</label>
         <input type="text"  className="form-control border border-solid  w-[450px]  outline-none rounded-md border-blue-300 py-2 px-4 mb-3 " placeholder="Devices Name"  id="Adresss" onChange={(e)=>{
-              setdevicesname(e.target.value.toLowerCase)
+              setdevicesname(e.target.value.toLowerCase())
                 }}/>
                                   
                                 </div>
